@@ -1,3 +1,11 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+import { NextResponse } from 'next/server';
+
+export const GET = () => {
+  return NextResponse.json({ name: 'John Doe' }, { status: 200 });
+};
+
 // /* eslint-disable no-console */
 // import type { NextApiResponse, NextApiRequest } from 'next';
 // import SpotifyWebApi from 'spotify-web-api-node';
